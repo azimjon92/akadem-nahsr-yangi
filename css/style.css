@@ -14,6 +14,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #FF7500;
   background-color: #fff;
 }
 
@@ -37,6 +40,7 @@ body {
 
 .sitenav-list {
   display: flex;
+  padding: 0;
   list-style: none;
 }
 
@@ -60,6 +64,10 @@ body {
 }
 
 .main-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: bold;
   font-size: 13px;
   line-height: 15px;
   background-color: #FF7500;
@@ -80,6 +88,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
 }
@@ -91,6 +101,7 @@ body {
 .orang-line {
   width: 80px;
   height: 3px;
+  border: none;
   background-color: #FF7500;
 }
 
@@ -103,8 +114,13 @@ body {
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
 
 .features-heading {
   width: 440px;
@@ -118,6 +134,7 @@ body {
 .features-list {
   display: flex;
   justify-content: space-between;
+  padding: 0;
   list-style: none;
 }
 
@@ -127,8 +144,12 @@ body {
 }
 
 .feature-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -142,6 +163,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
   background-color: #252420 ;
   color: #fff;
 }
@@ -164,10 +186,13 @@ body {
 .promo-img  {
   width: 440px;
   height: 400px;
+  border-radius: 12px;
   object-fit: cover;
 }
 
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #F8F8F8;
 }
 
@@ -178,12 +203,14 @@ body {
 }
 
 .site-footer ul {
+  padding: 0;
   list-style: none;
 }
 
 .socials {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .socials a {
@@ -200,6 +227,7 @@ body {
 
 .site-footer-divider {
   height: 2px;
+  border: 0;
   background-color:  rgba(37, 36, 32, 0.5) ;
 }
 
